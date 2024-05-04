@@ -22,3 +22,23 @@ server.bat
  
  
 9. напишите, сколько времени потратили на выполнение
+
+
+
+
+
+
+
+
+
+
+Get-ExecutionPolicy -List
+Set-ExecutionPolicy -Scope:CurrentUser -ExecutionPolicy:Unrestricted
+Set-ExecutionPolicy -Scope:LocalMachine -ExecutionPolicy:Unrestricted
+Set-ExecutionPolicy -Scope:UserPolicy -ExecutionPolicy:Unrestricted
+npm install -g node-gyp 
+npm config set python python2.7
+npm install
+node-gyp configure
+node-gyp build
+node .\server.js

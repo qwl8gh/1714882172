@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{63A98AF2-BEC1-9B20-DC65-1089211EB32E}</ProjectGuid>
+    <ProjectGuid>{D90C86CC-0515-CB84-4EB2-564310606D36}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>checkPrivilegeAddon</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -48,7 +48,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\include\node;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\src;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\config;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\openssl\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\uv\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\zlib;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\v8\include;C:\Users\admin1\Desktop\app\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\include\node;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\src;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\config;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\openssl\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\uv\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\zlib;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\v8\include;C:\Users\admin1\Desktop\app\1714882172\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus -std:c++17 /EHsc %(AdditionalOptions)</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
@@ -84,13 +84,13 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\include\node;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\src;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\config;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\openssl\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\uv\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\zlib;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\v8\include;C:\Users\admin1\Desktop\app\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\include\node;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\src;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\config;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\openssl\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\uv\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\zlib;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\v8\include;C:\Users\admin1\Desktop\app\1714882172\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=checkPrivilegeAddon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\include\node;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\src;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\config;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\openssl\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\uv\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\zlib;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\v8\include;C:\Users\admin1\Desktop\app\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\include\node;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\src;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\config;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\openssl\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\uv\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\zlib;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\v8\include;C:\Users\admin1\Desktop\app\1714882172\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus -std:c++17 /EHsc %(AdditionalOptions)</AdditionalOptions>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
@@ -129,7 +129,7 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\include\node;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\src;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\config;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\openssl\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\uv\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\zlib;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\v8\include;C:\Users\admin1\Desktop\app\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\include\node;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\src;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\config;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\openssl\openssl\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\uv\include;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\zlib;C:\Users\admin1\AppData\Local\node-gyp\Cache\20.12.2\deps\v8\include;C:\Users\admin1\Desktop\app\1714882172\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=checkPrivilegeAddon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
