@@ -31,7 +31,7 @@ server.bat
 
 
 
-
+```
 Get-ExecutionPolicy -List
 Set-ExecutionPolicy -Scope:CurrentUser -ExecutionPolicy:Unrestricted
 Set-ExecutionPolicy -Scope:LocalMachine -ExecutionPolicy:Unrestricted
@@ -42,3 +42,4 @@ npm install
 node-gyp configure
 node-gyp build
 node .\server.js
+```
