@@ -4,7 +4,6 @@
 #include <Windows.h>
 #include <iostream>
 #include <string>
-#include <windows.h>
 #include <string>
 #include <vector>
 #include <codecvt>
@@ -73,7 +72,12 @@ Napi::String CheckUserPrivilege(const Napi::CallbackInfo& info) {
     wchar_t wtext[20];
     mbstowcs(wtext, username.c_str(), username.length());
     LPWSTR ptr = wtext;
-    NET_API_STATUS status = NetUserGetInfo(NULL, ptr, level, (LPBYTE*)&userInfo);
+
+    std::string usernameUtf8 = info[0].As<Napi::String>().Utf8Value();
+    std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
+    std::wstring username1 = converter.from_bytes(usernameUtf8);
+
+    NET_API_STATUS status = NetUserGetInfo(NULL, username1.c_str(), level, (LPBYTE*)&userInfo);
     if (status != NERR_Success) {
         return Napi::String::New(env, "Error");
     }
