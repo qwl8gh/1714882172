@@ -20,14 +20,10 @@ app.get('/', (req, res) => {
 app.post('/check', (req, res) => {
     //const { username } = req.body;
     const username = req.body.username;
-    console.log(username)
     const privilege = checkUserPrivilege(username);
     console.log(username, privilege)
-    if (privilege == USER_NOT_FOUND) {
-        res.render('error', { username });
-    }
     if (privilege) {
-        res.render('privilege', { username, privilege });
+        privilege == USER_NOT_FOUND ? res.render("error", { username }) : res.render("privilege", { username, privilege });
     } else  {
         res.render('error', { username });
     }
