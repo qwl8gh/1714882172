@@ -4,6 +4,7 @@ const path = require('path');
 const { checkUserPrivilege } = require('./build/Release/checkPrivilegeAddon.node');
 const app = express();
 const PORT = process.env.PORT || 3000;
+const USER_NOT_FOUND = "UserNotFound";
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
@@ -22,9 +23,12 @@ app.post('/check', (req, res) => {
     console.log(username)
     const privilege = checkUserPrivilege(username);
     console.log(username, privilege)
+    if (privilege == USER_NOT_FOUND) {
+        res.render('error', { username });
+    }
     if (privilege) {
         res.render('privilege', { username, privilege });
-    } else {
+    } else  {
         res.render('error', { username });
     }
 });
